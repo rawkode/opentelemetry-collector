@@ -1,0 +1,20 @@
+receivers:
+  examplereceiver:
+
+processors:
+  exampleprocessor:
+
+exporters:
+  influxdb:
+  influxdb/2:
+    endpoint: "https://1.2.3.4:9999"
+    token: "token"
+    org: "org"
+    bucket: "bucket"
+
+service:
+  pipelines:
+    traces:
+      receivers: [examplereceiver]
+      processors: [exampleprocessor]
+      exporters: [influxdb]

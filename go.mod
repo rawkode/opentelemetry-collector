@@ -23,6 +23,7 @@ require (
 	github.com/gorilla/mux v1.7.3
 	github.com/grpc-ecosystem/grpc-gateway v1.11.1
 	github.com/hashicorp/consul/api v1.2.0 // indirect
+	github.com/influxdata/influxdb-client-go v0.1.5
 	github.com/jaegertracing/jaeger v1.17.0
 	github.com/jstemmer/go-junit-report v0.0.0-20190106144839-af01ea7f8024
 	github.com/mitchellh/mapstructure v1.1.2
@@ -53,6 +54,7 @@ require (
 	google.golang.org/api v0.10.0 // indirect
 	google.golang.org/grpc v1.23.0
 	gopkg.in/yaml.v2 v2.2.4
+	k8s.io/api v0.0.0-20190813020757-36bff7324fb7
 	k8s.io/client-go v12.0.0+incompatible // indirect
 )
 
